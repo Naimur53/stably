@@ -1,13 +1,40 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body{
+  font-family: 'Inter', sans-serif;
+  background-color: #010048 ;
+  color:white
+}
+@layer components {
+
+/* responsive text  */
+.text-res-xs {
+  @apply text-[14px] xl:text-xs
+ }
+ .text-res-ls {
+  @apply text-xs xl:text-ls
+ }
+ .text-res-normal {
+  @apply text-[20px] xl:text-normal
+ }
+ .text-res-base {
+  @apply text-[30px] xl:text-base
+ }
+ .text-res-lg {
+  @apply text-[28px] xl:text-lg
+ }
+ .text-res-xl {
+  @apply text-[40px] xl:text-xl
+ }
+
+ /* responsive spacing */
+ .mt-res-lg{
+   @apply mt-md xl:mt-lg
+ }
+ .mt-res-xl{
+   @apply mt-lg xl:mt-xl
+ }
+
 }
