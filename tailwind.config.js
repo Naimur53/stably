@@ -6,33 +6,34 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "main-blue": "rgba(1, 78, 255, 1)",
+        "main-black": "#1D3944",
         "light-white": "rgba(255, 255, 255, 0.75)",
         "half-white": "rgba(255, 255, 255, 0.5)",
 
-        'main-green': '#30B68D',
+        'light-gray': 'rgba(29, 57, 68, 0.3)',
         'active-green': 'rgba(18, 183, 87, 1)',
         'dark-blue': 'rgba(17, 16, 82, 1)',
       },
       spacing: {
         sm: '8px',
-        md: '80px',
-        lg: '130px',
-        xl: '146px',
+        md: '60px',
+        lg: '80px',
+        xl: '120px',
       },
       fontSize: {
 
-        'xs': ['16px', { lineHeight: '20px', }],
+        'xxs': ['14px', { lineHeight: '24px', }],
+        'xs': ['16px', { lineHeight: '26px', }],
 
-        'ls': ['18px', { lineHeight: '30px', }],
+        'ls': ['19px', { lineHeight: '23 px', }],
 
-        'sm': ['20px', { lineHeight: '24px', }],
-        'normal': ['24px', { lineHeight: '32px', }],
+        'sm': ['20px', { lineHeight: '27px', }],
+        'normal': ['24px', { lineHeight: '43.5px', }],
 
         'base': ['36px', { lineHeight: '44px', }],
-        'lg': ['44px', { lineHeight: '52px', }],
+        'lg': ['38px', { lineHeight: '43.5px', }],
 
-        'xl': ['56px', { lineHeight: '64px', }],
+        'xl': ['96px', { lineHeight: '105px', }],
       },
     },
     container: {
@@ -48,8 +49,8 @@ module.exports = {
         'sm': '100%',
         'md': '100%',
         'lg': '1024px',
-        'xl': '1170px',
-        '2xl': '1170px',
+        'xl': '1080px',
+        '2xl': '1080px',
       }
     },
   },

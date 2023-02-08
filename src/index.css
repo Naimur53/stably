@@ -2,16 +2,22 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-  font-family: 'Inter', sans-serif;
-  background-color: #010048 ;
-  color:white
+body{  
+  color: #1D3944;
+  /*
+  font-family: 'Bebas Neue', cursive;
+  font-family: 'Josefin Sans', sans-serif;
+   */
+  font-family: 'Open Sans', sans-serif;
 }
 @layer components {
 
 /* responsive text  */
+.text-res-xxs {
+  @apply text-[12px] xl:text-xxs
+ }
 .text-res-xs {
-  @apply text-[14px] xl:text-xs
+  @apply text-xxs xl:text-xs
  }
  .text-res-ls {
   @apply text-xs xl:text-ls
@@ -23,18 +29,41 @@ body{
   @apply text-[30px] xl:text-base
  }
  .text-res-lg {
-  @apply text-[28px] xl:text-lg
+  @apply text-[30px] xl:text-lg
  }
  .text-res-xl {
   @apply text-[40px] xl:text-xl
  }
 
  /* responsive spacing */
+ /* lg */
  .mt-res-lg{
    @apply mt-md xl:mt-lg
  }
+ /* xl */
  .mt-res-xl{
    @apply mt-lg xl:mt-xl
  }
+ .mb-res-xl{
+   @apply mb-lg xl:mb-xl
+ }
+ .my-res-xl{
+  @apply mt-res-xl mb-res-xl
+ }
+ .pt-res-xl{
+   @apply pt-lg xl:pt-xl
+ }
+ .pb-res-xl{
+   @apply pb-lg xl:pb-xl
+ }
+ .py-res-xl{
+  @apply pt-res-xl pb-res-xl
+ }
+
+ /* main css */
+ .main-heading{
+  @apply text-res-base 
+ }
+
 
 }
