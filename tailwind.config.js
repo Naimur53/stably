@@ -9,7 +9,7 @@ module.exports = {
         "main-black": "#1D3944",
         "light-white": "rgba(255, 255, 255, 0.75)",
         "half-white": "rgba(255, 255, 255, 0.5)",
-
+        "main-pink": "#8801FF",
         'light-gray': 'rgba(29, 57, 68, 0.3)',
         'active-green': 'rgba(18, 183, 87, 1)',
         'dark-blue': 'rgba(17, 16, 82, 1)',
@@ -25,7 +25,7 @@ module.exports = {
         'xxs': ['14px', { lineHeight: '24px', }],
         'xs': ['16px', { lineHeight: '26px', }],
 
-        'ls': ['19px', { lineHeight: '23 px', }],
+        'ls': ['19px', { lineHeight: '23px', }],
 
         'sm': ['20px', { lineHeight: '27px', }],
         'normal': ['24px', { lineHeight: '43.5px', }],

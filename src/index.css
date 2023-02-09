@@ -24,6 +24,7 @@ body{
  }
  .text-res-sm {
   @apply text-xs xl:text-sm
+  
  }
  .text-res-normal {
   @apply text-[20px] xl:text-normal
@@ -62,6 +63,10 @@ body{
  .py-res-xl{
   @apply pt-res-xl pb-res-xl
  }
+ /* extra font */
+ .font-josefin{
+  font-family: 'Josefin Sans', sans-serif;
+ }
 
  /* main css */
  .main-heading{
@@ -69,6 +74,15 @@ body{
  }
  .built-shadow{
   box-shadow: 0px 8px 34px rgba(200, 201, 201, 0.5);
+ } 
+
+ .banner-heading{
+  font-family: 'Bebas Neue', cursive;
+  background: linear-gradient(90deg, #AB00FF 0%, #6200FF 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
  }
 
 
