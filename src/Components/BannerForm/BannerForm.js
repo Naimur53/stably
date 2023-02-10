@@ -12,7 +12,7 @@ const BannerForm = () => {
         setToInfo(data)
     }
     return (
-        <div className='bg-white pl-[16px] pr-[8px] pt-[16px] rounded-[16px] font-josefin'>
+        <div className='bg-white pl-[16px] pr-[8px] pt-[16px] rounded-[16px] font-josefin banner-form'>
             {/* heading */}
             <div className='flex items-center justify-between'>
                 <div>
@@ -77,13 +77,25 @@ const BannerForm = () => {
                 </div>
 
                 {/* summery */}
-                <div>
+                <div className='pb-[16px]'>
                     <h2 className='text-[13px] leading-[13px] text-dark-gray py-[11px]'>Summary</h2>
-                    <div className='border text-center p-[17px] border-[#CCCCCC] rounded-[16px] text-dark-gray text-res-xs font-bold leading-[16px]'>
+                    <div className='border text-center p-[17px] border-[#CCCCCC] rounded-[16px] text-dark-gray text-[13px] md:text-xs font-bold leading-[16px]'>
                         <p>You get <span className='text-main-pink'>99.50 USDC (Stellar)</span> for <span className='text-main-pink'>100 USD</span></p>
                     </div>
                 </div>
+                <div className='mt-[27px] flex'>
+                    <button className='proceed-button w-full py-[15px] text-white flex justify-center text-res-xxs leading-[15px]'>
+                        <div className='flex items-center gap-[7px]'>
+                            <p className='w-full'> PROCEED . TOTAL <span>$100.00</span></p>
+                            <img src={publicLink('/right-arrow-white.svg')} alt="right-arrow-white" />
+                        </div>
 
+                    </button>
+                </div>
+                <div className='flex justify-center items-center mt-[8px] pb-[19px]'>
+                    <p>Powered by </p>
+                    <img src={publicLink('/form-banner.jpg')} alt="logo" />
+                </div>
 
             </div>
         </div>

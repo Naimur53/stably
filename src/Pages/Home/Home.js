@@ -6,11 +6,13 @@ import Faqs from '../../Components/Faqs/Faqs';
 import GetStart from '../../Components/GetStart/GetStart';
 import Partners from '../../Components/Partners/Partners';
 import StartEarn from '../../Components/StartEarn/StartEarn';
+import Topbar from '../../Components/Topbar/Topbar';
 import VarietyAssets from '../../Components/VarietyAssets/VarietyAssets';
 
 const Home = () => {
     return (
         <div >
+            <Topbar></Topbar>
             <Banner></Banner>
             <VarietyAssets></VarietyAssets>
             <DataProtected></DataProtected>

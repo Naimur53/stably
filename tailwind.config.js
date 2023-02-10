@@ -12,6 +12,7 @@ module.exports = {
 
         "half-white": "rgba(255, 255, 255, 0.5)",
         "main-pink": "#8801FF",
+        "light-pink": "#AB00FF",
         'light-gray': 'rgba(29, 57, 68, 0.3)',
         'active-green': 'rgba(18, 183, 87, 1)',
         'dark-blue': 'rgba(17, 16, 82, 1)',

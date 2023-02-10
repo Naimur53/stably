@@ -56,7 +56,7 @@ const CustomInput = ({ handleInputAndSelectChange, defaultInput, options, defaul
                             <img src={publicLink('/down-black.svg')} alt="down arrow" />
                         </div>
                         {
-                            open && <div className="absolute left-0 right-0 bg-white  -bottom-1 translate-y-full flex flex-col gap-1 rounded-[16px]">
+                            open && <div className="absolute shadow-xl z-10 left-0 right-0 bg-white  -bottom-1 translate-y-full flex flex-col gap-1 rounded-[16px]">
                                 {
                                     options.map((single, i) => <SingleOption i={i} handleClick={handleChange} dropdown {...single}></SingleOption>)
                                 }
