@@ -113,5 +113,8 @@ border-radius: 14px;
   display: flex;
   
 }
+.nav-button{
+  @apply pt-[6px] md:pt-[12px]  pb-[4px] md:pb-[10px] pr-[8px] md:pr-[35px] pl-[8px] md:pl-[34px] text-res-xxs rounded-[4px] md:rounded-[8px] 
+}
 
 }
