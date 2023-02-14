@@ -8,13 +8,21 @@ import Partners from '../../Components/Partners/Partners';
 import StartEarn from '../../Components/StartEarn/StartEarn';
 import Topbar from '../../Components/Topbar/Topbar';
 import VarietyAssets from '../../Components/VarietyAssets/VarietyAssets';
-
+import publicLink from '../../utilites/publicLink';
 const Home = () => {
     return (
         <div >
             <Topbar></Topbar>
-            <Banner></Banner>
-            <VarietyAssets></VarietyAssets>
+            <div
+                style={{
+                    backgroundImage: `url(${publicLink('/banner-bg.png')})`
+                }}
+                className='bg-cover bg-bottom'
+            >
+
+                <Banner></Banner>
+                <VarietyAssets></VarietyAssets>
+            </div>
             <DataProtected></DataProtected>
             <BattleTested></BattleTested>
             <Partners></Partners>

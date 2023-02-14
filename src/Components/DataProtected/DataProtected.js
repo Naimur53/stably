@@ -4,46 +4,44 @@ import publicLink from '../../utilites/publicLink';
 const DataProtected = () => {
     const data = [
         {
-            icon: 'lock-and-key.png',
-            title: 'Data privacy',
-            des: 'Purchased assets are sent directly to your own wallet once your payment has settled. With Stably Ramp, you don’t need to worry about custody risk like on centralized exchanges which have complete control over customer funds..'
+            title: 'Self-custody settlement ',
+            des: 'Purchased assets are sent directly to your wallet upon payment settlement. With Stably Ramp, you can stop worrying about custody risk from centralized exchanges.'
         },
         {
-            icon: 'money-with.png',
-            title: 'Superior fees, as low as 1%',
-            des: 'Not only do we offer stablecoin-friendly payment methods that are more scalable vs. cards, our system also sources liquidity directly from DeFi, allowing us to bypass centralized exchange exposure and  inventory management which translates to lower fees for our end users '
+            title: 'Superior fees, as low as $2',
+            des: 'We offer stablecoin-friendly payment methods with better scalability than cards and source liquidity directly from DeFi, resulting in lower fees to our end users. '
         },
         {
             icon: 'Security.svg',
-            title: 'Security standards',
-            des: 'We will list over 100 digital assets across 30+ blockchain networks throughout 2023. Using traditional payment methods, Stably Ramp users will be able to buy/sell both native and bridged assets, including popular stablecoins like USDC and DAI'
+            title: 'Omnichain fiat gateway ',
+            des: 'We will list 100+ assets throughout 2023 so you can buy/sell both native and bridged assets across 30+ chains, including USDC and DAI, via traditional payment methods.'
         },
         {
             icon: 'Lock.svg',
-            title: 'Self-custody settlement',
-            des: 'Purchased assets are sent directly to your own wallet once your payment has settled. With Stably Ramp, you don’t need to worry about custody risk like on centralized exchanges which have complete control over customer funds.'
+            title: 'Access to emerging blockchains ',
+            des: 'We have expanded our USDS stablecoin to 10+ emerging chains such as XRPL, Chia, and Harmony. As a result, Stably Ramp is the only fiat gateway with stablecoin access to these exclusive ecosystems.'
         },
         {
             icon: 'Phone.svg',
             title: 'Global onboarding support',
-            des: 'New individual users can register with Stably Ramp and get KYC verified in less than 5 minutes (US residents only). In additions to individuals, we also support KYB onboarding for entities in 200+ countries/regions'
+            des: 'New individual users can register and get KYC verified in 5 minutes or less (US residents only). In additions to individuals, we also support KYB onboarding for entities in 200+ countries/regions.'
         },
         {
             icon: 'Security.svg',
-            title: 'Omnichain fiat gateway',
-            des: 'We’re a certified PCI Service Provider Level 1, which means we meet the highest level of certification available in the payments industry.'
+            title: 'Regulatory compliant',
+            des: 'We partner with Prime Trust, a US-regulated trust company and qualified custodian, for funds processing and fiat custody. We are also a registered money service business (MSB).'
         },
     ]
     return (
         <div className='py-res-xl'>
             <div className="container">
-                <h2 className='main-heading mb-[40px] md:mb-[75px] font-bold'>Why Stably Ramp?</h2>
+                <h2 className='main-heading mb-[40px] md:mb-[75px]  '>Why Stably Ramp?</h2>
                 <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-[24px] md:gap-y-[75px]'>
                     {
-                        data.map(single => <div className='pb-[24px]'>
+                        data.map((single, i) => <div className='pb-[24px]'>
                             <div className='pb-[24px] border-b border-light-gray'>
 
-                                <img className='w-[42px]' src={publicLink(`/${single.icon}`)} alt={single.icon} />
+                                <img className='w-[42px] h-[42px]' src={publicLink(`/sec-icons/Icon-${i + 1}.svg`)} alt={single.icon} />
                             </div>
                             <div className='mt-[18px]'>
                                 <h2 className='text-ls font-bold mb-[16px]'>{single.title}</h2>

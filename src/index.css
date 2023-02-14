@@ -35,7 +35,7 @@ body{
   
  }
  .text-res-normal {
-  @apply text-[20px] xl:text-normal
+  @apply text-[18px] xl:text-normal
  }
  .text-res-base {
   @apply text-[30px] xl:text-base
@@ -78,14 +78,14 @@ body{
 
  /* main css */
  .main-heading{
-  @apply text-res-base 
+  @apply text-res-lg
  }
  .built-shadow{
   box-shadow: 0px 8px 34px rgba(200, 201, 201, 0.5);
  } 
 
  .banner-heading{
-  font-family: 'Bebas Neue', cursive;
+  /* font-family: 'Bebas Neue', cursive; */
   background: linear-gradient(90deg, #AB00FF 0%, #6200FF 100%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
@@ -114,7 +114,31 @@ border-radius: 14px;
   
 }
 .nav-button{
-  @apply pt-[6px] md:pt-[12px]  pb-[4px] md:pb-[10px] pr-[8px] md:pr-[35px] pl-[8px] md:pl-[34px] text-res-xxs rounded-[4px] md:rounded-[8px] 
+  @apply pt-[6px] md:pt-[12px]  pb-[4px] md:pb-[10px] pr-[10px] md:pr-[35px] pl-[10px] md:pl-[34px] text-res-xxs rounded-[4px] md:rounded-[8px] font-bold
 }
+.battle-info-top{
+  @apply flex items-center gap-[10px] justify-center
+}
+.battle-info-top img{
+  @apply w-[19px] md:w-[29px]
+}
+.battle-info-top p{
+@apply font-bold text-xs md:text-[30px]
+}
+.battle-text{
+  @apply text-[12px] md:text-sm mt-[10px] md:mt-[15px]
+}
+.footer-content-wrap{
+  @apply xl:flex justify-end
+}
+.footer-content-wrap div{
+  @apply flex flex-col justify-start items-start
+}
+.footer-content-wrap h2{
+  @apply text-[15px] leading-[25px] text-[#7A7F8D] mb-[18px] text-end
 
+}
+.footer-content-wrap ul {
+  @apply flex flex-col gap-[18px] text-[15px] leading-[25px]
+}
 }

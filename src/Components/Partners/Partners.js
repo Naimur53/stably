@@ -23,10 +23,8 @@ const Partners = () => {
     return (
         <div className='py-res-xl'>
             <div className="container">
-                <h2 className='main-heading mb-[18px]'>Our partners</h2>
-                <p className='text-res-xs md:w-[485px]'>Use Stably for easy and secure checkouts on these web3 applications and many more.</p>
-                <div className="mt-[50px] md:mt-[72px]"></div>
 
+                {/* 
                 <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-[24px]">
                     {
                         data.map(single => <div className='flex md:items-cednter flex-col'>
@@ -47,11 +45,11 @@ const Partners = () => {
                         </div>)
                     }
 
-                </div>
+                </div> */}
                 <div className='mt-[45px] md:mt-[70px] py-[60px] px-[20px] md:px-[40px] xl:px-[166px] rounded-[12px bg-[#FEFEFE] built-shadow'>
                     <div className='text-center flex flex-col items-center'>
-                        <img className='w-[128px]' src={publicLink('/Stably-Icon.jpg')} alt="Stably-Icon" />
-                        <h2 className='text-res-lg mb-[16px] leading-[51px]'>Built by stably</h2>
+                        <img className='w-[128px]' src={publicLink('/Stably-Icon.png')} alt="Stably-Icon" />
+                        <h2 className='text-res-lg my-[16px] leading-[51px]'>Built by stably</h2>
                         <p className='text-res-sm  md:w-[748px]'>Battle-tested by thousands of users and institutions Stably created Stably Ramp to provide a faster and easier way to get into web3 via stablecoins.</p>
                     </div>
                 </div>

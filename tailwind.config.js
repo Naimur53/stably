@@ -37,7 +37,7 @@ module.exports = {
         'base': ['36px', { lineHeight: '44px', }],
         'lg': ['38px', { lineHeight: '43.5px', }],
 
-        'xl': ['96px', { lineHeight: '105px', }],
+        'xl': ['66px', { lineHeight: '89px', }],
       },
     },
     container: {

@@ -14,16 +14,16 @@ const BannerForm = () => {
     return (
         <div className='bg-white pl-[16px] pr-[8px] pt-[16px] rounded-[16px] font-josefin banner-form'>
             {/* heading */}
-            <div className='flex items-center justify-between'>
+            <div className='flex items-center justify-between max-h-[40px]'>
                 <div>
                     <img src={publicLink('/card-pink.png')} alt="s" />
                 </div>
                 <div>
-                    <h5 className='text-main-pink text-res-normal font-semibold font-josefin'>Buy USDC</h5>
+                    <h5 className='text-main-pink text-res-normal leading-[24px] font-semibold font-josefin'>Buy USDC</h5>
                 </div>
                 <div>
-                    <button className='p-[8px]'>
-                        <img src={publicLink('/menu.svg')} alt="menu" />
+                    <button className='p-[8px] md:h-[40px]'>
+                        <img className='' src={publicLink('/menu.svg')} alt="menu" />
 
                     </button>
                 </div>

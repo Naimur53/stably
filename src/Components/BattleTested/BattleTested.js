@@ -11,24 +11,33 @@ const BattleTested = () => {
             </div>
 
             <div className=' flex '>
-                <div className='pr-[29px] border-r-2'>
-                    <div className='flex items-center gap-[10px]'>
-                        <img className='w-[29px]' src={publicLink('/Volume.svg')} alt="icons" />
-                        <p className='font-bold text-normal md:text-[30px]'>$100+ MN</p>
+                <div className='pr-[10px] md:pr-[29px] border-r-2'>
+                    <div className=' battle-info-top'>
+                        <img className='' src={publicLink('/Volume.svg')} alt="icons" />
+                        <p  >$100+ MN</p>
                     </div>
                     <div className='text-center'>
-                        <p className='text-res-sm mt-[15px]'>Volume Swapped</p>
+                        <p className='battle-text'>Volume Swapped</p>
                     </div>
                 </div>
-                <div className='pl-[29px]'>
-                    <div className='flex gap-[10px] items-center'>
-                        <img className='w-[23px]' src={publicLink('/Users.svg')} alt="user" />
-                        <p className='font-bold text-normal md:text-[30px]'>10K+</p>
+                <div className='px-[10px] md:px-[29px]'>
+                    <div className='battle-info-top'>
+                        <img src={publicLink('/Users.svg')} alt="user" />
+                        <p className=''>10K+</p>
                     </div>
                     <div className='text-center'>
-                        <p className='text-res-sm mt-[15px]'>Users</p>
+                        <p className='battle-text'>Users</p>
                     </div>
 
+                </div>
+                <div className='pl-[10px] md:pl-[29px] border-l-2'>
+                    <div className='battle-info-top'>
+                        <img src={publicLink('/location.svg')} alt="icons" />
+                        <p  >200+</p>
+                    </div>
+                    <div className='text-center'>
+                        <p className='battle-text'>Countries/Region</p>
+                    </div>
                 </div>
             </div>
 
