@@ -17,14 +17,14 @@ const GetStart = () => {
                         <p className='text-res-ls mb-[15px]'>Subscribe to our newsletter</p>
                         <div className='flex items-start xl:flex-row flex-col gap-[13px]'>
                             <input className='xl:w-[285px] bg-transparent focus:outline-none placeholder:text-[#C7C7C7] text-[15px] leading-[20px]  py-[12px] px-[19px] rounded-[12px] border-[#C7C7C7] border' placeholder='Enter your email address' type="email" />
-                            <button type='submit' className='bg-white text-main-black text-res-xs md:leading-[21px] py-[12px] px-[19px] rounded-[12px] font-bold'>Subscribe</button>
+                            <button type='submit' className='bg-white text-main-black text-res-xs md:leading-[21px] py-[12px] px-[19px] rounded-[12px] font-bold effect'>Subscribe</button>
                         </div>
                     </div>
                 </div>
 
                 {/* middle */}
-                <div className='grid  grid-cols-3 md:grid-cols-6 xl:grid-cols-12 pt-[70px] gap-[50px]  border-t border-white/[.5] mt-[70px]'>
-                    <div className=' col-span-3 md:col-span-6 xl:col-span-3'>
+                <div className='grid  grid-cols-6 xl:grid-cols-12 pt-[70px] gap-[50px]  border-t border-white/[.5] mt-[70px]'>
+                    <div className=' col-span-6 xl:col-span-3'>
                         <div>
                             <img src={publicLink('/footer-logo.png')} alt="logo" />
                         </div>
