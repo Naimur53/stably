@@ -45,7 +45,7 @@ const DataProtected = () => {
                             </div>
                             <div className='mt-[18px]'>
                                 <h2 className='text-ls font-bold mb-[16px]'>{single.title}</h2>
-                                <p className='text-res-xxs w-[300px] md:w-[315px]'>{single.des}</p>
+                                <p className='text-res-xs w-[300px] md:w-[315px] tracking-[-0.16px]'>{single.des}</p>
                             </div>
 
 

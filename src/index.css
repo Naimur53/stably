@@ -9,6 +9,7 @@ body{
   font-family: 'Josefin Sans', sans-serif;
    */
   font-family: 'Open Sans', sans-serif;
+  letter-spacing: -0.16px;
 }
 
 @layer base {
@@ -140,5 +141,11 @@ border-radius: 14px;
 }
 .footer-content-wrap ul {
   @apply flex flex-col gap-[18px] text-[15px] leading-[25px]
+}
+.effect{
+  @apply transition-all
+}
+.effect:hover{
+  @apply opacity-75
 }
 }

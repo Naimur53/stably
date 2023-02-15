@@ -51,7 +51,7 @@ const StartEarn = () => {
 
                             </div>
                             <div>
-                                <button className='font-bold text-[18px] leading-[24px] md:text-[18px] flex items-center gap-[10px]'>
+                                <button className='font-bold text-[18px] leading-[24px] md:text-[18px] flex items-center gap-[10px] effect'>
                                     <span>{single.option}</span>
                                     <img src={publicLink('/arrow_forward.svg')} alt="arrow_forward" />
                                 </button>

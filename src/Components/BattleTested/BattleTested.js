@@ -14,7 +14,7 @@ const BattleTested = () => {
                 <div className='pr-[10px] md:pr-[29px] border-r-2'>
                     <div className=' battle-info-top'>
                         <img className='' src={publicLink('/Volume.svg')} alt="icons" />
-                        <p  >$100+ MN</p>
+                        <p  >$100+ M</p>
                     </div>
                     <div className='text-center'>
                         <p className='battle-text'>Volume Swapped</p>
@@ -23,10 +23,10 @@ const BattleTested = () => {
                 <div className='px-[10px] md:px-[29px]'>
                     <div className='battle-info-top'>
                         <img src={publicLink('/Users.svg')} alt="user" />
-                        <p className=''>10K+</p>
+                        <p className=''>50+</p>
                     </div>
                     <div className='text-center'>
-                        <p className='battle-text'>Users</p>
+                        <p className='battle-text'>Partners</p>
                     </div>
 
                 </div>
