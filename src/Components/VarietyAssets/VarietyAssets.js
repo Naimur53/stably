@@ -9,7 +9,7 @@ const VarietyAssets = () => {
     return (
         <section className=' py-res-xl'>
             <div className="px-[20px] md:px-[40px] xl:px-[80px] ">
-                <h1 className='text-center main-heading'>Select from a variety of assets</h1>
+                <h1 className='text-center main-heading font-bold'>Over 100 digital assets across more than 30 blockchains</h1>
 
                 <div className='mt-md flex md:flex-row flex-col xl:justify-between justify-center gap-[40px] md:gap-[87px] flex-wrap xl:flex-nowrap'>
                     {

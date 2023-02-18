@@ -46,11 +46,12 @@ const Partners = () => {
                     }
 
                 </div> */}
-                <div className='mt-[45px] md:mt-[70px] py-[60px] px-[20px] md:px-[40px] xl:px-[166px] rounded-[12px bg-[#FEFEFE] built-shadow'>
-                    <div className='text-center flex flex-col items-center'>
+                <div className='mt-[45px] md:mt-[70px] py-[60px] px-[20px] md:px-[40px] xl:px-[166px] rounded-[12px] bg-[#FEFEFE] built-shadow'>
+                    <div className='text-center flex flex-col items-center gap-[30px]'>
                         <img className='w-[128px]' src={publicLink('/Stably-Icon.png')} alt="Stably-Icon" />
-                        <h2 className='text-res-lg my-[16px] leading-[51px]'>Built by stably</h2>
-                        <p className='text-res-sm  md:w-[748px]'>Battle-tested by thousands of users and institutions Stably created Stably Ramp to provide a faster and easier way to get into web3 via stablecoins.</p>
+                        <h2 className='text-[24px] md:text-[32px]  leading-[51px] font-bold'>Integrate Stably Ramp and list your project!</h2>
+                        <p className='text-res-sm  md:w-[748px]'>Tired of the slow and expensive listing process at centralized exchanges? Say less; we know exactly how you feel. <span className='font-bold'> Stably Ramp is here to change that.</span></p>
+                        <button className='pt-[12px] pb-[11px] pl-[34px] pr-[35px] rounded-[8px] bg-inner-black text-[#E3FFF2] text-res-normal font-bold effect'>Integrate Stably Ramp Today</button>
                     </div>
                 </div>
             </div>

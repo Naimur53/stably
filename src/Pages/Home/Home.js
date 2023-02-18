@@ -14,10 +14,10 @@ const Home = () => {
         <div >
             <Topbar></Topbar>
             <div
-                style={{
-                    backgroundImage: `url(${publicLink('/banner-bg.png')})`
-                }}
-                className='bg-cover bg-bottom'
+                // style={{
+                //     backgroundImage: `url(${publicLink('/background-banner-white.png')})`
+                // }}
+                className='bg-cover bg-top banner-bg'
             >
 
                 <Banner></Banner>
